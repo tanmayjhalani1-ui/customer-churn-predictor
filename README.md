@@ -1,3 +1,13 @@
+<div align="center">
+  <img src="assets/portfolio-banner.svg" alt="Customer Churn Prediction — Tanmay Jhalani" width="100%" />
+</div>
+
+<div align="center">
+  <strong>Designed and engineered by Tanmay Jhalani</strong> · <a href="https://github.com/tanmayjhalani1-ui">GitHub Profile</a>
+</div>
+
+---
+
 # Customer Churn Prediction
 
 An end-to-end customer churn machine learning application built around the original Churn Modelling dataset and prediction project. The repository now includes a reproducible training pipeline, model comparison, MLflow experiment tracking, an interactive Streamlit dashboard, a lightweight FastAPI service, and Docker support.
