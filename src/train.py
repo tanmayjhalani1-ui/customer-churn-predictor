@@ -62,7 +62,7 @@ def build_pipeline(estimator: object) -> Pipeline:
     ])
     categorical = Pipeline([
         ("imputer", SimpleImputer(strategy="most_frequent")),
-        ("encoder", OneHotEncoder(handle_unknown="ignore")),
+        ("encoder", OneHotEncoder(handle_unknown="ignore", sparse_output=False)),
     ])
     preprocessing = ColumnTransformer([
         ("numeric", numeric, NUMERIC_FEATURES),
